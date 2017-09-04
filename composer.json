@@ -1,0 +1,33 @@
+{
+    "name": "wordpruss/contracts",
+    "description": "A couple of interfaces that set common behaviors between the wordpruss classes.",
+    "keywords": ["wordpress-development","php", "php-library","wordpress"],
+    "homepage":"https://github.com/wordpruss/contracts",
+    "license":"MIT",
+    "type": "library",
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {},
+    "autoload": {
+        "files": [],
+        "psr-4": {
+            "WordPruss\\Contracts\\": ""
+        }
+    },
+    "autoload-dev": {
+        "files": [],
+        "psr-4": {
+            "WordPruss\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Mystro Ken",
+            "email": "mystroken@gmail.com",
+            "homepage": "http://mystroken.cm",
+            "role": "Lead Developer"
+        }
+    ]
+}
